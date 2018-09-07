@@ -38,16 +38,13 @@ This is my clone of the site for [threadless.com](threadless.com).  It is still 
 - Inside  double-click on `index.html`.
 
 ## Known Bugs
-- The clone does not have the full functionality of the real site.
+- The clone does not have the full functionality of the real site.  Menus, buttons, and links do not function.
 
 ## Support and contact details
-- For questions or support you can email me at:
+- For questions or support you can email me at: comedian.sean.connery@gmail.com.
 
 ## Technologies Used
-- This program uses HTML, CSS, and Javascript.
-
-## Attributions
--
+- This site uses HTML and CSS.
 
 ### License
 This software is licensed under [GNU GPLv3](LICENSE.txt).
