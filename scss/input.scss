@@ -33,12 +33,12 @@ $fsize-icon: 1.5vw;
 }
 
 body {
+  color: $black;
+  width: 100%;
   font: {
     size: $fsize;
     family: $fontTitle;
   }
-  color: $black;
-  width: 100%;
 }
 
 i {
@@ -177,7 +177,7 @@ button {
 .grey-bar {
   background-color: $grey;
   width: 100%;
-  height: 10px;
+  height: 5px;
   margin: 1vw 0;
 }
 
@@ -276,10 +276,46 @@ button {
 }
 
 .footer {
+  padding: 0 2.5vw;
   background-color: $greyLight;
   width: 100vw;
   height: 150px;
   margin: 0;
+  h4 {
+    text-transform: uppercase;
+    font: {
+      size: $fsize;
+      family: $fontTitle;
+    }
+  }
+  p {
+    font: {
+      size: $fsize;
+      family: $fontLight;
+    }
+  }
+  button {
+    width: 5vw;
+    margin-left: 1vw;
+  }
+  input {
+    border-radius: 5px;
+    width: 15vw;
+  }
+}
+
+.footer-top {
+  padding: 1vw;
+  margin-bottom: 2vw;
+
+}
+
+.join-newsletter {
+  justify-content: space-between;
+  align-items: flex-start;
+  h4, p, div {
+    margin: 0.25vw;
+  }
 }
 
 // .test {
