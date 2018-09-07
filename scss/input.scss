@@ -88,6 +88,8 @@ button {
   flex-direction: row;
   flex-basis: 1;
   justify-content: space-between;
+  height: 125px;
+  width: 100vw;
   div {
     justify-content: space-between;
     align-items: center;
@@ -98,6 +100,12 @@ button {
   img {
     width: 8vw;
     overflow-y: hidden;
+  }
+  .header-high {
+    height: 75px;
+  }
+  .header-low {
+    height: 50px;
   }
 }
 

@@ -3,6 +3,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -57,9 +59,11 @@ button:active {
 
 .header {
   padding: 0.75vw;
-  flex-direction: row;
+  flex-direction: column;
   flex-basis: 1;
   justify-content: space-between;
+  height: 125px;
+  width: 100vw;
 }
 .header div {
   justify-content: space-between;
@@ -71,6 +75,14 @@ button:active {
 .header img {
   width: 8vw;
   overflow-y: hidden;
+}
+.header .header-high {
+  height: 75px;
+  width: 100vw;
+}
+.header .header-low {
+  height: 50px;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=output.css.map */
