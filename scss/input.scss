@@ -1,0 +1,13 @@
+//globe <i class="fas fa-globe-americas"></i>
+//cart <i class="fas fa-shopping-cart"></i>
+
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:300,300i');
+
+$fontTitle: 'Archivo Black', sans-serif;
+$fontLight: 'Roboto', sans-serif;
+$fontText: sans-serif;
+
+h1 {
+  font-family: $fontText;
+}
