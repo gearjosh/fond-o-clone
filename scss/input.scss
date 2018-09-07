@@ -10,6 +10,18 @@ $fontTitle: 'Archivo Black', sans-serif;
 $fontLight: 'Roboto', sans-serif;
 $fontText: sans-serif;
 $bgDiag: url("../img/diagonals.png");
+$black: #282828;
+$blue: #09f;
+$grey: #dadada;
+$grey2: #555;
+$pink: #f39;
+$fsize: 0.9vw;
+$fsize-sm: 0.7vw;
+$fsize-lg: 1.1vw;
+
+
+
+
 
 //styles
 
@@ -21,26 +33,81 @@ $bgDiag: url("../img/diagonals.png");
 
 body {
   font: {
-    size: 0.9vw;
+    size: $fsize;
     family: $fontTitle;
   }
   background-color: white;
-  color: black;
+  color: $black;
   width: 100%;
 }
 
 i {
-  font-size: 1.2vw;
-  margin: 0 0.9vw;
+  font-size: $fsize-lg;
+  margin: 0 $fsize;
 }
 
-.test {
-  background: {
-    image: $bgDiag;
-    repeat: repeat;
-    color: lime;
-    size: 6vw;
+input {
+  height: 2vw;
+  padding: 0.5vw;
+  border: 1px solid $grey;
+  border-radius: 5px;
+  border-style: solid;
+  box-shadow: none;
+  &:focus {
+    outline: none;
+    border-color: $blue;
   }
-  width: 60vw;
-  height: 60vw;
+  text-transform: capitalize;
 }
+
+button {
+  width: 6vw;
+  height: 2vw;
+  border: 0 solid $blue;
+  border-radius: 5px;
+  background-color: $blue;
+  font-family: $fontTitle;
+  font-size: $fsize-sm;
+  color: white;
+  text-transform: uppercase;
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.header {
+  padding: 0.75vw;
+  flex-direction: row;
+  flex-basis: 1;
+  justify-content: space-between;
+  div {
+    justify-content: space-between;
+    align-items: center;
+  }
+  p, input {
+    margin: 0.5vw;
+  }
+  img {
+    width: 8vw;
+    overflow-y: hidden;
+  }
+}
+
+// .test {
+//   background: {
+//     image: $bgDiag;
+//     repeat: repeat;
+//     color: lime;
+//     size: 6vw;
+//   }
+//   width: 60vw;
+//   height: 60vw;
+// }

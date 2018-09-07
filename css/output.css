@@ -9,22 +9,68 @@ body {
   font-size: 0.9vw;
   font-family: "Archivo Black", sans-serif;
   background-color: white;
-  color: black;
+  color: #282828;
   width: 100%;
 }
 
 i {
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   margin: 0 0.9vw;
 }
 
-.test {
-  background-image: url("../img/diagonals.png");
-  background-repeat: repeat;
-  background-color: lime;
-  background-size: 6vw;
-  width: 60vw;
-  height: 60vw;
+input {
+  height: 2vw;
+  padding: 0.5vw;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  border-style: solid;
+  box-shadow: none;
+  text-transform: capitalize;
+}
+input:focus {
+  outline: none;
+  border-color: #09f;
+}
+
+button {
+  width: 6vw;
+  height: 2vw;
+  border: 0 solid #09f;
+  border-radius: 5px;
+  background-color: #09f;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 0.7vw;
+  color: white;
+  text-transform: uppercase;
+}
+button:active {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.header {
+  padding: 0.75vw;
+  flex-direction: row;
+  flex-basis: 1;
+  justify-content: space-between;
+}
+.header div {
+  justify-content: space-between;
+  align-items: center;
+}
+.header p, .header input {
+  margin: 0.5vw;
+}
+.header img {
+  width: 8vw;
+  overflow-y: hidden;
 }
 
 /*# sourceMappingURL=output.css.map */
