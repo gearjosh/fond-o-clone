@@ -214,7 +214,6 @@ button:active {
   flex-grow: 4;
   width: 60vw;
   padding: 1vw;
-  border-right: 1px solid #dadada;
 }
 .blog img {
   width: 100%;
