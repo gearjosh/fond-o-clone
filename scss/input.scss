@@ -197,7 +197,9 @@ button {
 }
 
 .up3 {
+  width: 95vw;
   flex-wrap: wrap;
+  justify-content: space-between;
   p {
     font-family: sans-serif;
     position: absolute;
@@ -214,6 +216,7 @@ button {
 }
 
 .up5 {
+  width: 95vw;
   flex-wrap: wrap;
   p {
     font-family: sans-serif;
@@ -234,6 +237,7 @@ button {
   // height: 400px;
   // background-color: $pink;
   justify-content: space-between;
+  margin-top: 2vw;
   .bold {
     text-transform: uppercase;
     font-size: $fsize-icon;

@@ -164,7 +164,9 @@ button:active {
 }
 
 .up3 {
+  width: 95vw;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .up3 p {
   font-family: sans-serif;
@@ -181,6 +183,7 @@ button:active {
 }
 
 .up5 {
+  width: 95vw;
   flex-wrap: wrap;
 }
 .up5 p {
@@ -199,6 +202,7 @@ button:active {
 
 .pre-footer {
   justify-content: space-between;
+  margin-top: 2vw;
 }
 .pre-footer .bold {
   text-transform: uppercase;

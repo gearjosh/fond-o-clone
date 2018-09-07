@@ -1,14 +1,12 @@
-# Title
+# Threadless Clone
 
-#### subtitle
+#### A clone of the Threadless site, September 7, 2018
 
-#### By  Josh Gearheart
+#### By Josh Gearheart
 
 
 ## Description
-
-
-####
+This is my clone of the site for [threadless.com](threadless.com).  It is still a work in progress.
 
 ## Setup/Installation Requirements
 - Navigate to
