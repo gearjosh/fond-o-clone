@@ -13,22 +13,22 @@ This is my clone of the site for [threadless.com](threadless.com).  It is still 
 **Clone:**
 ![clone top](img/mytop.png)
 **Real Site**
-![real top](img/realtop.jpg)
+![real top](img/realtop.png)
 
 **Clone:**
 ![clone mid](img/mymid.png)
 **Real Site**
-![real mid](img/realmid.jpg)
+![real mid](img/realmid.png)
 
 **Clone:**
 ![clone lower](img/mylower.png)
 **Real Site**
-![real lower](img/reallower.jpg)
+![real lower](img/reallower.png)
 
 **Clone:**
 ![clone bottom](img/mybottom.png)
 **Real Site**
-![real bottom](img/realbottom.jpg)
+![real bottom](img/realbottom.png)
 
 ## Setup/Installation Requirements
 - Navigate to `https://github.com/gearjosh/fond-o-clone`.
