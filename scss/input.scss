@@ -1,5 +1,6 @@
 //globe <i class="fas fa-globe-americas"></i>
 //cart <i class="fas fa-shopping-cart"></i>
+//search <i class="fas fa-search"></i>
 
 
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:300,300i');
@@ -15,13 +16,10 @@ $blue: #09f;
 $grey: #dadada;
 $grey2: #555;
 $pink: #f39;
-$fsize: 0.9vw;
+$fsize: 1vw;
 $fsize-sm: 0.7vw;
-$fsize-lg: 1.1vw;
-
-
-
-
+$fsize-lg: 1.2vw;
+$fsize-icon: 1.5vw;
 
 //styles
 
@@ -29,6 +27,7 @@ $fsize-lg: 1.1vw;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 body {
@@ -41,7 +40,7 @@ body {
 }
 
 i {
-  font-size: $fsize-lg;
+  font-size: $fsize-icon;
   margin: 0 $fsize;
 }
 
@@ -91,6 +90,7 @@ button {
   background-color: lighten($grey2, 62%);
   background-position: center;
   padding: 0.75vw;
+  padding-right: 0;
   flex-direction: column;
   flex-basis: 1;
   justify-content: space-between;
@@ -101,7 +101,7 @@ button {
     align-items: center;
   }
   p, input, label {
-    margin: 0.5vw;
+    // margin: 0.5vw;
   }
   input {
     width: 30vw;
@@ -115,10 +115,6 @@ button {
     width: 95vw;
     margin: 0 auto;
     border-bottom: 1px solid $grey;
-    &:nth-child(n) {
-      margin: 0 1vw;
-      // background-color: transparent;
-    }
     .column {
       justify-content: flex-end;
 
@@ -130,7 +126,23 @@ button {
   }
   .header-low {
     height: 50px;
-    width: 100vw;
+    width: 95vw;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+    li {
+      font-size: ($fsize-lg);
+      text-transform: uppercase;
+      font-family: $fontText;
+      font-weight: 600;
+      padding: 0 1vw;
+    }
+    p {
+      font-family: $fontLight;
+      font-size: $fsize-lg;
+      color: $blue;
+      margin-right: 0;
+    }
   }
 }
 
