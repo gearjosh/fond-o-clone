@@ -8,6 +8,23 @@ $fontTitle: 'Archivo Black', sans-serif;
 $fontLight: 'Roboto', sans-serif;
 $fontText: sans-serif;
 
-h1 {
-  font-family: $fontText;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: {
+    size: 0.9vw;
+    family: $fontTitle;
+  }
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+i {
+  font-size: 1.2vw;
+  margin: 0 0.9vw;
 }

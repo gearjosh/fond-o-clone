@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:300,300i");
-h1 {
-  font-family: sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.9vw;
+  font-family: "Archivo Black", sans-serif;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+i {
+  font-size: 1.2vw;
+  margin: 0 0.9vw;
 }
 
 /*# sourceMappingURL=output.css.map */
