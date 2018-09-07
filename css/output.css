@@ -8,7 +8,6 @@
 body {
   font-size: 0.9vw;
   font-family: "Archivo Black", sans-serif;
-  background-color: white;
   color: #282828;
   width: 100%;
 }
@@ -19,12 +18,13 @@ i {
 }
 
 input {
-  height: 2vw;
+  height: 2.7vw;
   padding: 0.5vw;
   border: 1px solid #dadada;
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: solid;
   box-shadow: none;
+  font-size: 1.1vw;
   text-transform: capitalize;
 }
 input:focus {
@@ -60,6 +60,8 @@ button:active {
 }
 
 .header {
+  background-color: #f3f3f3;
+  background-position: center;
   padding: 0.75vw;
   flex-direction: column;
   flex-basis: 1;
@@ -74,6 +76,9 @@ button:active {
 .header p, .header input, .header label {
   margin: 0.5vw;
 }
+.header input {
+  width: 30vw;
+}
 .header img {
   width: 11vw;
   overflow-y: hidden;
@@ -82,12 +87,17 @@ button:active {
   height: 75px;
   width: 95vw;
   margin: 0 auto;
+  border-bottom: 1px solid #dadada;
 }
 .header .header-high:nth-child(n) {
   margin: 0 1vw;
 }
-.header .header-high:nth-child(2) {
+.header .header-high .column {
   justify-content: flex-end;
+}
+.header .header-high label {
+  color: #09f;
+  font-family: "Roboto", sans-serif;
 }
 .header .header-low {
   height: 50px;

@@ -36,7 +36,6 @@ body {
     size: $fsize;
     family: $fontTitle;
   }
-  background-color: white;
   color: $black;
   width: 100%;
 }
@@ -47,12 +46,13 @@ i {
 }
 
 input {
-  height: 2vw;
+  height: 2.7vw;
   padding: 0.5vw;
   border: 1px solid $grey;
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: solid;
   box-shadow: none;
+  font-size: $fsize-lg;
   &:focus {
     outline: none;
     border-color: $blue;
@@ -88,6 +88,8 @@ button {
 }
 
 .header {
+  background-color: lighten($grey2, 62%);
+  background-position: center;
   padding: 0.75vw;
   flex-direction: column;
   flex-basis: 1;
@@ -101,6 +103,9 @@ button {
   p, input, label {
     margin: 0.5vw;
   }
+  input {
+    width: 30vw;
+  }
   img {
     width: 11vw;
     overflow-y: hidden;
@@ -109,11 +114,18 @@ button {
     height: 75px;
     width: 95vw;
     margin: 0 auto;
+    border-bottom: 1px solid $grey;
     &:nth-child(n) {
       margin: 0 1vw;
+      // background-color: transparent;
     }
-    &:nth-child(2) {
+    .column {
       justify-content: flex-end;
+
+    }
+    label {
+      color: $blue;
+      font-family: $fontLight;
     }
   }
   .header-low {
