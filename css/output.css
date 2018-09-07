@@ -64,7 +64,6 @@ button:active {
   background-color: #f3f3f3;
   background-position: center;
   padding: 0.75vw;
-  padding-right: 0;
   flex-direction: column;
   flex-basis: 1;
   justify-content: space-between;
@@ -81,6 +80,9 @@ button:active {
 .header img {
   width: 11vw;
   overflow-y: hidden;
+}
+.header button {
+  margin: 0.5vw 0;
 }
 .header .header-high {
   height: 75px;
@@ -114,6 +116,92 @@ button:active {
   font-size: 1.2vw;
   color: #09f;
   margin-right: 0;
+}
+
+.body {
+  width: 95vw;
+  background-size: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.body img {
+  width: 100%;
+}
+
+.hero {
+  margin-bottom: 1vw;
+}
+.hero img {
+  width: 95vw;
+}
+
+.grey-bar {
+  background-color: #dadada;
+  width: 100%;
+  height: 10px;
+}
+
+.item {
+  margin-bottom: 3vw;
+  padding: 1vw;
+}
+.item img {
+  width: 100%;
+}
+
+.up3 {
+  flex-wrap: wrap;
+}
+.up3 .item {
+  width: 33%;
+}
+
+.up5 {
+  flex-wrap: wrap;
+}
+.up5 .item {
+  width: 20%;
+}
+
+.pre-footer {
+  justify-content: space-between;
+}
+.pre-footer p {
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+}
+
+.blog {
+  flex-grow: 4;
+  width: 60vw;
+  padding: 1vw;
+  border-right: 1px solid #dadada;
+}
+.blog img {
+  width: 100%;
+}
+
+.instagram {
+  width: 35vw;
+}
+.instagram .flex {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.instagram .item {
+  width: 50%;
+  margin: 0;
+}
+
+.footer {
+  background-color: #282828;
+  width: 100vw;
+  height: 150px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=output.css.map */
