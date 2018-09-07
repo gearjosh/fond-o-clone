@@ -3,12 +3,13 @@
 //search <i class="fas fa-search"></i>
 
 
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:300,300i');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Arvo|Roboto:300,300i');
 
 //variables
 
 $fontTitle: 'Archivo Black', sans-serif;
 $fontLight: 'Roboto', sans-serif;
+$fontSerif: 'Arvo', serif;
 $fontText: sans-serif;
 $bgDiag: url("../img/diagonals.png");
 $black: #282828;
@@ -85,6 +86,14 @@ button {
 
 .column {
   flex-direction: column;
+}
+
+.outline {
+  border: 1px solid $grey;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .header {
@@ -169,9 +178,11 @@ button {
   background-color: $grey;
   width: 100%;
   height: 10px;
+  margin: 1vw 0;
 }
 
 .item {
+  position: relative;
   margin-bottom: 3vw;
   padding: 1vw;
   img {
@@ -179,8 +190,24 @@ button {
   }
 }
 
+.up3, .up5 {
+  p {
+    font-size: $fsize-lg;
+  }
+}
+
 .up3 {
   flex-wrap: wrap;
+  p {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 3vw;
+    left: 3vw;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 0px 0px 2px $grey2;
+    text-transform: capitalize;
+  }
   .item {
     width: 33%;
   }
@@ -188,6 +215,16 @@ button {
 
 .up5 {
   flex-wrap: wrap;
+  p {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 3vw;
+    left: 3vw;
+    font-size: 1.8vw;
+    color: white;
+    text-shadow: 0px 0px 2px $grey2;
+    text-transform: capitalize;
+  }
   .item {
     width: 20%;
   }
@@ -197,7 +234,7 @@ button {
   // height: 400px;
   // background-color: $pink;
   justify-content: space-between;
-  p {
+  .bold {
     text-transform: uppercase;
     font-size: $fsize-icon;
     margin-left: 1vw;
@@ -211,6 +248,15 @@ button {
   border-right: 1px solid $grey;
   img {
     width: 100%;
+  }
+}
+
+.blog-teaser {
+  h3 {
+    font-family: $fontSerif;
+  }
+  p {
+    font-family: $fontLight;
   }
 }
 
@@ -230,7 +276,7 @@ button {
 }
 
 .footer {
-  background-color: $black;
+  background-color: $greyLight;
   width: 100vw;
   height: 150px;
   margin: 0;
