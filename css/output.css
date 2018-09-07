@@ -18,4 +18,13 @@ i {
   margin: 0 0.9vw;
 }
 
+.test {
+  background-image: url("../img/diagonals.png");
+  background-repeat: repeat;
+  background-color: lime;
+  background-size: 6vw;
+  width: 60vw;
+  height: 60vw;
+}
+
 /*# sourceMappingURL=output.css.map */

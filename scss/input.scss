@@ -4,9 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:300,300i');
 
+//variables
+
 $fontTitle: 'Archivo Black', sans-serif;
 $fontLight: 'Roboto', sans-serif;
 $fontText: sans-serif;
+$bgDiag: url("../img/diagonals.png");
+
+//styles
 
 * {
   box-sizing: border-box;
@@ -27,4 +32,15 @@ body {
 i {
   font-size: 1.2vw;
   margin: 0 0.9vw;
+}
+
+.test {
+  background: {
+    image: $bgDiag;
+    repeat: repeat;
+    color: lime;
+    size: 6vw;
+  }
+  width: 60vw;
+  height: 60vw;
 }
